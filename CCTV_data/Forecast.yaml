@@ -1,6 +1,3 @@
-# 时空双维度Cross-Parent Attention完整配置
-# 已集成到ForecastIT_MAIN.py中
-
 data:
   root: ../data/MYDATA
   data_file: data\MYDATA\data.npz
@@ -103,3 +100,4 @@ train:
   dropout: 0.2,  
 
   monitor: "coarse_rmse"   
+
