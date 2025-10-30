@@ -101,4 +101,5 @@ train:
   grad_clip: 5.0
   seed: 42
   dropout: 0.2,  
+
   monitor: "coarse_rmse"   
